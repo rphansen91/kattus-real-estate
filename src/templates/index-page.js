@@ -71,7 +71,7 @@ export const IndexPageTemplate = ({
                 </h3>
                 <div className="columns">
                   <div className="column">
-                    <HTMLContent className="content" content={html} />
+                    <HTMLContent className="content" content={content} />
                   </div>
                   <div style={{ paddingLeft: "0.75rem" }}>
                     <div
