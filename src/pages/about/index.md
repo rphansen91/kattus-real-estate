@@ -2,6 +2,8 @@
 templateKey: about-page
 title: About Frank
 ---
+![Frank Kattus](/img/1219125586.jpg "Frank Kattus")
+
 Frank Kattus has been a Real Estate professional since 1981.  The core of his business is built on a strong client base of referrals.
 
 Trusted by his clients over his more than 30 years of experience, Frank is a consistent producer as a listing agent and as a buyer’s agent.  He has a vast knowledge of San Diego Real Estate, specializing in North County, where he resides with his wife Sharon.  Frank & Sharon's daughters, Megan, Rachel and Kathleen, also live in the Southern California area.
