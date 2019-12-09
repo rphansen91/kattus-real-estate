@@ -8,7 +8,7 @@ description: >-
 featuredpost: false
 featuredimage: /img/21467747229.jpg
 tags:
-  - AC carlsbad
+  - AC Carlsbad
 ---
 **Property Highlights**
 
