@@ -1,33 +1,39 @@
 ---
 templateKey: communities-page
-title: About Frank
+title: Communities
 ---
-![Frank Kattus](/img/1219125586.jpg "Frank Kattus")
+**Carlsbad**
 
-Frank Kattus has been a Real Estate professional since 1981.  The core of his business is built on a strong client base of referrals.
+![Carlsbad](/img/carlsbad1.jpg "Carlsbad")
 
-Trusted by his clients over his more than 30 years of experience, Frank is a consistent producer as a listing agent and as a buyer’s agent.  He has a vast knowledge of San Diego Real Estate, specializing in North County, where he resides with his wife Sharon.  Frank & Sharon's daughters, Megan, Rachel and Kathleen, also live in the Southern California area.
+The picturesque seaside community of Carlsbad is located in coastal North County San Diego, south of Oceanside north of Encinitas.  It is home to the world renowned La Cost Resort & Spa, the exclusive Aviara Park Hyatt Luxury Resort, scenic Carlsbad state beach, the famous Carlsbad Flower Fields, 'Legoland', its own Palomar airport and recently opened municipal golf course.  The quaint Carlsbad Village, in 'Olde Carlsbad', is enjoyed by locals and tourists year round.  The Carlsbad Unified School District is one of the best in San Diego County.  Carlsbad's near perfect climate and its attractive planned residential communities, including Aviara, Rancho Carrillo, Calavera Hills, Bressi ranch, La Costa Valley and La Costa Oaks, make it one of San Diego's most sought after areas to live in.  The established neighborhood of 'La Costa', nestled in the hills of south Carlsbad above the La Costa Resort & Spa, derives its name from its close proximity to the famous Resort.  Carlsbad is also a 'shoppers paradise' hosting 'The Carlsbad Forum', 'Camino Plaza Real' mall and the Carlsbad 'Outlet Stores' mall.  Please find more information on Carlsbad by visiting the adjoining area links.
 
-Frank received his BA degree from Providence College in Rhode Island.  He completed a course in ‘Real Estate Selling Skills’ in 1993, then went on to complete the Hyland Bay Critical Path Real Estate sales seminar in 1995.  Frank is a licensed California Real Estate Broker.  He was recently awarded Certificates of Excellence by the '100% Club' and 'Executive Club' of Realty Executives International. 
+**Encinitas**
 
-Frank has also held the position of Real Estate Sales & Marketing manager for a nationally known home builder.  He diversified his career further, by learning the residential mortgage business, giving his clients the advantage of utilizing his vast knowledge of Real Estate financing options.
+![Encinitas](/img/encinitas.jpg "Encinitas")
 
-Frank’s Real Estate expertise, integrity and people skills have been finely tuned over 30 years of experience resulting in his consistent rate of success.  His philosophy is simple:  Listen to your client – Know your client's needs – Be sensitive to your client's needs.  Frank’s superior marketing & writing skills, honed during his years in the music and entertainment business, showcase his listings with meticulous attention to detail, giving his clients the edge over the competition.
+The coastal city of Encinitas is a 'surfers paradise'.  Situated just south of Carlsbad, north of Cardiff and Solana Beach, Encinitas boasts beautiful Moonlight beach, the famous 'Swami's' surfing break and is home to some of the best runners, triathletes and surfers in the world.  The Scripps Encinitas Hospital complex just west of the I-5 on Santa Fe Dr., is one of San Diego's finest health care facilities.  Encinitas is also home to the famous Paul Ecke Poinsettia Ranch and the laid back beach community of Leucadia, where time seems to have stopped in the 50's!  Settled by German immigrants in 1885, the rural enclave of Olivenhain with its custom homes and horse properties, lies on the east side of Encinitas adjacent to Rancho Santa Fe.  Encinitas restaurants, shopping areas and beautiful tree lined neighborhoods make it one of the most desirable areas of San Diego to live in.  For more detailed information on Encinitas please click on the adjoining area links.
 
-In addition to his successful Real Estate career, Frank is a classical guitarist, having studied, performed and taught guitar prior to entering the Real Estate profession.  His musical career also took him to the island of Maui, Hawaii where he produced concerts as an owner/manager of a night club/concert production company.  Frank later worked in the television business on such popular shows as ‘The People’s Court’ and ‘Truth or Consequences’.
+**Escondido**
 
-Invest your trust in Frank Kattus, BROKER - REAL ESTATE EXPERT, who not only has the experience, knowledge and marketing skills, but who has the integrity to always look after your best interest.
+![](/img/escondido.jpg)
 
-![Frank Kattus Guitar](/img/agent-photo.jpg "Frank Kattus Guitar")
+At the heart of North County lies the historic city of Escondido, ('hidden' in spanish), one of the oldest settlements in San Diego County.  Incorporated as a city in 1888, Escondido boasts not only a mild climate but a diverse economy based on agriculture, tourism, retail, high tech and light industry.  It has one of the highest 'Real Estate appraisal ratings' in the county, since the population began to steadily rise in the 70ies.  To the north of Escondido you will find the rural town of Valley Center with its sprawling ranches and million dollar home developements.  Valley Center is also home to the burgeoning native American casino industry with Las Vegas style resorts like Harah's Rincon Resort & Casino.  Local recreation areas include Dixon Lake, Lake Hodges and Lake Wohlford offering fishing and boating year round.  Escondido is also home to 'Wild Animal Park', Lawrence Welk's 'Welk Resort' and Escondido's own Center for the Performing Arts.  Enjoy 'Cruising Grand' during the summer months on Escondido's famous Grand Ave., in the heart of downtown.  The Escondido Union School District is comprised if 19 elementary schools, 5 middle schools and 7 high schools.  For more information on Escondido, please visit the attached area links.
 
-"Frank's professionalism, years in the business and continued support for..."
+**Fallbrook / Bonsall**
 
-\- Jed Stotsenberg
+![Fallbrook / Bonsall](/img/fallbrook.jpg "Fallbrook / Bonsall")
 
-"Frank had the professionalism & willingness to become within our mindset..."
+Scenic Fallbrook with its rolling avacado covered hills, is situated due east of Oceanside adjacent to interstate 15.  Its old oak trees, equestrian trails, riparian areas and nature preserves including 'Live Oak Park', enhance its picturesque beauty.  Fallbrook's residents have the versatility of enjoying a laid back country lifestyle while still having only a 20 minute commute to the beach.  If you desire privacy with some acreage around you in a near perfect climate, Fallbrook is a great option.  Fallbrook and its neighboring community of Bonsall, boast many beautiful equestrian properties.  Bonsall is home to the famous San Luis Rey Downs horse training center, approved by the California horse racing board in 1984.  Fallbrooks spring avacado festival attracts visitors from throughout the county.  For more information on Fallbrook/Bonsall, please visit the adjoining area links.
 
-\- Philip & Deborah Manuell
+**Oceanside**
 
-"Frank Kattus not only listed and sold our home in record time during a..."
+![Oceanside](/img/oceanside.jpg "Oceanside")
 
-\- Bryan & Marcy Grismer
+Oceanside California is the most northern coastal community in San Diego county located south of Camp Pendleton Marine base, north of Carlsbad.  Its beautiful marina provides year round pleasure for its many boat owners, tourists and local residents.  It is also home to the historic San Luis Rey Mission and MiraCosta College.  The Oceanside Pier area with its beautiful beaches, is developing a 5 star luxury resort/hotel with ocean view residences creating one of the premier destinations in San Diego county.  Its custom home neighborhoods of 'Fire Mountain' and 'Henie Hills', along with its newer planned community of 'Rancho Del Oro' have contributed to Oceanside being considered one the best Real Estate values in San Diego.  For more detailed information on Oceanside please visit the adjoining area links.
+
+**Vista**
+
+![Vista](/img/vista.jpg "Vista")
+
+The city of Vista named one of '50 fabulous places to raise your family', is only 7 miles from the beach.  Situated just east of Carlsbad and Oceanside, its perfect Mediterranean climate, recreational facilities and great schools make it an ideal community for families.  Vista has 6 times the national average of public parks in its 18.5 square miles and its population has tripled during the past 20 years.  The diverse Vista Real Estate market has something for everyone!  Affordable condominiums and single family homes as well as larger estate homes and horse ranches can be found in its scenic rolling hills.  The Shadowridge area of Vista surrounding the Shadowridge Country Club is one of the newer planned communities Vista has to offer.  For more information on Vista, please visit the adjoining area links.
