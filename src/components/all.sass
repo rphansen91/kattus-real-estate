@@ -1,8 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #d6313c
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -10,8 +8,8 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #333
 
-body
-  overflow: hidden
+//body
+  //overflow: hidden
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -60,6 +58,8 @@ body
   .full-width-image
     background-size: cover
     background-attachment: fixed
+  .flex-row-reverse-md
+    flex-direction: row-reverse;
 
 .btn
     display: inline-block
@@ -148,3 +148,7 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 100%;
     margin: 0 0 1em;
+
+.toc
+  position: sticky
+  top: 50px

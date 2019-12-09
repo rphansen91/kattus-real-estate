@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Agent from "../components/Agent";
+import { AgentSidebar } from "../components/Agent";
 import Content, { HTMLContent } from "../components/Content";
 
 export const AboutPageTemplate = ({
@@ -18,23 +18,14 @@ export const AboutPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <div className="columns">
-                <div className="column">
+            <div className="columns">
+              <AgentSidebar />
+              <div className="column">
+                <div className="section">
+                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                    {title}
+                  </h2>
                   <PageContent className="content" content={content} />
-                </div>
-                <div style={{ paddingLeft: "0.75rem" }}>
-                  <div
-                    className="notification toc"
-                    style={{
-                      padding: "1.5rem"
-                    }}
-                  >
-                    <Agent />
-                  </div>
                 </div>
               </div>
             </div>

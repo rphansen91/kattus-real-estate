@@ -1,11 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
 import Content, { HTMLContent } from "../components/Content";
-import Agent from "../components/Agent";
+import { AgentSidebar } from "../components/Agent";
 
 export const IndexPageTemplate = ({
   image,
@@ -40,9 +39,8 @@ export const IndexPageTemplate = ({
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            className="has-background-primary has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
-              backgroundColor: "rgb(255, 68, 0)",
               color: "white",
               lineHeight: "1",
               padding: "0.25em"
@@ -51,9 +49,8 @@ export const IndexPageTemplate = ({
             {title}
           </h1>
           <h3
-            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            className="has-background-primary has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
             style={{
-              backgroundColor: "rgb(255, 68, 0)",
               color: "white",
               lineHeight: "1",
               padding: "0.25em"
@@ -68,35 +65,24 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="section">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    {heading}
-                  </h3>
-                  <div className="columns">
+                <div className="columns">
+                  <AgentSidebar />
+                  <div className="section">
                     <div className="column">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
                       <PageContent className="content" content={content} />
-                    </div>
-                    <div style={{ paddingLeft: "0.75rem" }}>
-                      <div
-                        className="notification toc"
-                        style={{
-                          padding: "1.5rem"
-                        }}
-                      >
-                        <Agent />
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        Featured Listings
+                      </h3>
+                      <BlogRoll />
+                      <div className="column is-12 has-text-centered">
+                        <Link className="btn" to="/listings">
+                          Read more
+                        </Link>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Featured Listings
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/listings">
-                      Read more
-                    </Link>
                   </div>
                 </div>
               </div>

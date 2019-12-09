@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Agent from './Agent'
+import { Agent } from './Agent'
 
 import logo from '../img/homesmart-logo.png'
 

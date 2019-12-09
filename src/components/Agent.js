@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
-export default ({ hideImage }) => {
+export const Agent = ({ hideImage }) => {
   const data = useStaticQuery(graphql`
     query Agent {
       markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
@@ -32,15 +32,54 @@ export default ({ hideImage }) => {
   } = data.markdownRemark.frontmatter.agent;
   return (
     <>
-      <p className="has-text-center">{name}</p>
-      {!hideImage && !!image.childImageSharp ? <img src={image.childImageSharp.fluid.src} alt={name} style={{ width: '100%', maxWidth: 172, margin: 'auto', display: 'block' }} /> : null}
-      <a className="has-text-center has-text-primary" title="phone" href={`tel:${phone}`}>
+      <h4 className="has-text-centered has-text-weight-bold is-bold-light">{name}</h4>
+      {!hideImage && !!image.childImageSharp ? (
+        <img
+          src={image.childImageSharp.fluid.src}
+          alt={name}
+          style={{
+            width: "100%",
+            maxWidth: 172,
+            margin: "auto",
+            display: "block"
+          }}
+        />
+      ) : null}
+      <a
+        className="is-block has-text-centered has-text-primary"
+        title="phone"
+        href={`tel:${phone}`}
+      >
         {phone}
       </a>
-      <p className="has-text-center" style={{ margin: 0 }}>CalDRE: {caldre}</p>
-      <a className="has-text-center has-text-primary" title="email" href={`mailto:${email}`}>
+      <p className="has-text-centered" style={{ margin: 0 }}>
+        CalDRE: {caldre}
+      </p>
+      <a
+        className="is-block has-text-centered has-text-primary"
+        title="email"
+        href={`mailto:${email}`}
+      >
         {email}
       </a>
     </>
+  );
+};
+
+export const AgentSidebar = () => {
+  return (
+    <div style={{ paddingRight: "0.75rem" }}>
+      <h3 className="has-text-weight-semibold is-size-2 is-hidden-mobile">
+        &nbsp;
+      </h3>
+      <div
+        className="notification toc"
+        style={{
+          padding: "1.5rem"
+        }}
+      >
+        <Agent />
+      </div>
+    </div>
   );
 };
