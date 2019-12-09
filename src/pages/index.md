@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Kattus Real Estate
-image: /img/home-jumbotron.jpg
+image: /img/skyline.jpg
 heading: About Frank
 subheading: Invest your trust in more than 30 years of experience
 mainpitch:
