@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/homesmart.jpg'
+import logo from '../img/homesmart-logo.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -35,15 +35,11 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/communities">
-                      Communities
+                      <Link className="navbar-item" to="/listings">
+                        Featured Properties
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/financing">
-                        Financing
-                      </Link>
-                    </li>
+                    
                     <li>
                       <a
                         className="navbar-item"
@@ -61,8 +57,13 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/listings">
-                        Featured Properties
+                      <Link className="navbar-item" to="/communities">
+                      Communities
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/financing">
+                        Financing
                       </Link>
                     </li>
                     <li>
@@ -73,7 +74,21 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column is-4">
+              <img
+                src={logo}
+                alt="Homesmart Logo"
+              />
+              <p>Frank Kattus</p>
+              <a title="phone" href="tel:1-760-889-0527">
+                (760) 889-0527
+              </a>
+              <p style={{ margin: 0}}>CalDRE: 00820486</p>
+              <a title="email" href="mailto:frank.kattus@gmail.com">
+              frank.kattus@gmail.com
+              </a>
+              </div>
+              {/* <div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
                     src={facebook}
@@ -103,7 +118,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
