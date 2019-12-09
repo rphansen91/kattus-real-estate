@@ -25,7 +25,8 @@ export const IndexPageTemplate = ({
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
         backgroundBlendMode: 'darken',
-        backgroundColor: 'rgba(0,0,0,0.5)'
+        backgroundColor: 'rgba(0,0,0,0.5)',
+        backgroundSize: 'cover'
       }}
     >
       <div
