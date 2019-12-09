@@ -24,13 +24,9 @@ Invest your trust in Frank Kattus, BROKER - REAL ESTATE EXPERT, who not only has
 
 \- Jed Stotsenberg
 
-
-
 "Frank had the professionalism & willingness to become within our mindset..."
 
 \- Philip & Deborah Manuell
-
-
 
 "Frank Kattus not only listed and sold our home in record time during a..."
 
