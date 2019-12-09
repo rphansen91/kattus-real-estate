@@ -15,7 +15,7 @@ export default class BlogIndexPage extends React.Component {
             backgroundAttachment: `fixed`,
             backgroundBlendMode: 'darken',
             backgroundColor: 'rgba(0,0,0,0.5)',
-            backgroundSize: 'cover'
+            backgroundSize: "auto 650px"
           }}
         >
           <h1
