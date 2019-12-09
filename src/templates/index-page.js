@@ -14,7 +14,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  html,
+  content,
   intro
 }) => (
   <div>
@@ -130,7 +130,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        html={html}
+        content={html}
       />
     </Layout>
   );
