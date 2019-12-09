@@ -8,14 +8,9 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image-container margin-top-0"
+          className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url('/img/skyline.jpg')`,
-            backgroundPosition: `center`,
-            backgroundAttachment: `fixed`,
-            backgroundBlendMode: 'darken',
-            backgroundColor: 'rgba(0,0,0,0.5)',
-            backgroundSize: "auto 650px"
           }}
         >
           <h1
