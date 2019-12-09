@@ -18,7 +18,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "listing-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
@@ -48,6 +48,20 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/communities/index.md"
+        label: "Communities"
+        name: "communities"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "communities-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/financing/index.md"
+        label: "Financing"
+        name: "financing"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "financing-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/products/index.md"
