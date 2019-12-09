@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
-import { HTMLContent } from "../components/Content";
+import Content, { HTMLContent } from "../components/Content";
 import Agent from "../components/Agent";
 
 export const IndexPageTemplate = ({
@@ -15,95 +15,99 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   content,
+  contentComponent,
   intro
-}) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0 main-image"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`
-      }}
-    >
+}) => {
+  const PageContent = contentComponent || Content;
+  return (
+    <div>
       <div
+        className="full-width-image margin-top-0 main-image"
         style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+        <div
           style={{
-            backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
+            display: "flex",
+            height: "150px",
             lineHeight: "1",
-            padding: "0.25em"
+            justifyContent: "space-around",
+            alignItems: "left",
+            flexDirection: "column"
           }}
         >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {subheading}
-        </h3>
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              backgroundColor: "rgb(255, 68, 0)",
+              color: "white",
+              lineHeight: "1",
+              padding: "0.25em"
+            }}
+          >
+            {title}
+          </h1>
+          <h3
+            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            style={{
+              backgroundColor: "rgb(255, 68, 0)",
+              color: "white",
+              lineHeight: "1",
+              padding: "0.25em"
+            }}
+          >
+            {subheading}
+          </h3>
+        </div>
       </div>
-    </div>
-    <section className="section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="content">
-              <div className="section">
-                <h3 className="has-text-weight-semibold is-size-2">
-                  {heading}
-                </h3>
-                <div className="columns">
-                  <div className="column">
-                    <HTMLContent className="content" content={content} />
-                  </div>
-                  <div style={{ paddingLeft: "0.75rem" }}>
-                    <div
-                      className="notification toc"
-                      style={{
-                        padding: "1.5rem"
-                      }}
-                    >
-                      <Agent />
+      <section className="section--gradient">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <div className="section">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    {heading}
+                  </h3>
+                  <div className="columns">
+                    <div className="column">
+                      <PageContent className="content" content={content} />
+                    </div>
+                    <div style={{ paddingLeft: "0.75rem" }}>
+                      <div
+                        className="notification toc"
+                        style={{
+                          padding: "1.5rem"
+                        }}
+                      >
+                        <Agent />
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="column is-12">
-                <h3 className="has-text-weight-semibold is-size-2">
-                  Featured Listings
-                </h3>
-                <BlogRoll />
-                <div className="column is-12 has-text-centered">
-                  <Link className="btn" to="/listings">
-                    Read more
-                  </Link>
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    Featured Listings
+                  </h3>
+                  <BlogRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/listings">
+                      Read more
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <div className="section" />
-  </div>
-);
+      </section>
+      <div className="section" />
+    </div>
+  );
+};
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -129,6 +133,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
+        contentComponent={HTMLContent}
         intro={frontmatter.intro}
         content={html}
       />
