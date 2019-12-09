@@ -1,8 +1,13 @@
 ---
 templateKey: about-page
 title: About Frank
+agent:
+  name: Frank Kattus
+  image: /img/1219125586.jpg
+  caldre: 00820486
+  email: frank.kattus@gmail.com
+  phone: 1-760-889-0527
 ---
-![Frank Kattus](/img/1219125586.jpg "Frank Kattus")
 
 Frank Kattus has been a Real Estate professional since 1981.  The core of his business is built on a strong client base of referrals.
 

@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import Agent from "../components/Agent";
 
 export const IndexPageTemplate = ({
   image,
@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        })`
       }}
     >
       <div
@@ -63,32 +63,26 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">
-              {/* <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div> */}
               <div className="section">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
                 <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
+                  <div className="column">
                     <p>{description}</p>
+                  </div>
+                  <div style={{ paddingLeft: "0.75rem" }}>
+                    <div
+                      className="notification toc"
+                      style={{
+                        padding: "1.5rem"
+                      }}
+                    >
+                      <Agent />
+                    </div>
                   </div>
                 </div>
               </div>
-              <Features gridItems={intro.blurbs} />
-              {/* <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div> */}
               <div className="column is-12">
                 <h3 className="has-text-weight-semibold is-size-2">
                   Featured Listings
@@ -105,6 +99,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+    <div className="section" />
   </div>
 );
 
@@ -167,20 +162,20 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+        # intro {
+        #   blurbs {
+        #     image {
+        #       childImageSharp {
+        #         fluid(maxWidth: 240, quality: 64) {
+        #           ...GatsbyImageSharpFluid
+        #         }
+        #       }
+        #     }
+        #     text
+        #   }
+        #   heading
+        #   description
+        # }
       }
     }
   }
