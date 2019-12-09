@@ -17,3 +17,21 @@ Frank’s Real Estate expertise, integrity and people skills have been finely tu
 In addition to his successful Real Estate career, Frank is a classical guitarist, having studied, performed and taught guitar prior to entering the Real Estate profession.  His musical career also took him to the island of Maui, Hawaii where he produced concerts as an owner/manager of a night club/concert production company.  Frank later worked in the television business on such popular shows as ‘The People’s Court’ and ‘Truth or Consequences’.
 
 Invest your trust in Frank Kattus, BROKER - REAL ESTATE EXPERT, who not only has the experience, knowledge and marketing skills, but who has the integrity to always look after your best interest.
+
+![Frank Kattus Guitar](/img/agent-photo.jpg "Frank Kattus Guitar")
+
+"Frank's professionalism, years in the business and continued support for..."
+
+\- Jed Stotsenberg
+
+
+
+"Frank had the professionalism & willingness to become within our mindset..."
+
+\- Philip & Deborah Manuell
+
+
+
+"Frank Kattus not only listed and sold our home in record time during a..."
+
+\- Bryan & Marcy Grismer
