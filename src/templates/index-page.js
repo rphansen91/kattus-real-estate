@@ -19,9 +19,10 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        // backgroundImage: `url(${
+        //   !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        // })`,
+        backgroundImage: `url(${image})`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
         backgroundBlendMode: 'darken',
