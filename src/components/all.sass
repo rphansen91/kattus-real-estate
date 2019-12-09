@@ -49,13 +49,17 @@ body
     width: 100vw
     height: 400px
     background-position: center
-    background-ttachment: fixed
+    background-attachment: fixed
     background-blend-mode: darken
     background-color: rgba(0,0,0,0.2)
-    background-size: 100%
+    background-size: auto 100%
     display: flex
     justify-content: center
     align-items: center
+
+@media all and (min-width: 670px)
+  .full-width-image
+    background-size: cover
 
 .btn
     display: inline-block
