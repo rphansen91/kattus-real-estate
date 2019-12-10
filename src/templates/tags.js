@@ -8,12 +8,12 @@ class TagRoute extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
       <li key={post.node.fields.slug} className="notification" style={{ padding: '0.75rem' }}>
-        <Link to={post.node.fields.slug} className="media">
+        <Link to={post.node.fields.slug} className="media" style={{ textDecoration: 'none' }}>
           <figure className="image" style={{ minWidth: 128 }}>
             <img src={post.node.frontmatter.featuredimage.childImageSharp.fluid.src} alt={post.node.frontmatter.title} />
           </figure>
           <div className="media-content" style={{ padding: '0.75rem' }}>
-            <h2 className="has-text-primary" style={{ lineHeight: '1em' }}>{post.node.frontmatter.title}</h2>
+            <h2 className="has-text-primary" style={{ lineHeight: '1em', textDecorationColor: 'initial' }}>{post.node.frontmatter.title}</h2>
           </div>
         </Link>
       </li>
@@ -36,7 +36,7 @@ class TagRoute extends React.Component {
                 style={{ marginBottom: '6rem' }}
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
+                <ul className="taglist" style={{ marginBottom: '1rem' }}>{postLinks}</ul>
                 <p>
                   <Link to="/tags/">Browse all tags</Link>
                 </p>

@@ -32,9 +32,9 @@ export const Agent = ({ hideImage }) => {
   } = data.markdownRemark.frontmatter.agent;
   return (
     <div>
-      <div className="media" style={{ alignItems: "center" }}>
+      <div className="media flex-direction-column-md" style={{ alignItems: "center" }}>
         {!hideImage && !!image.childImageSharp ? (
-          <figure className="image" style={{ width: 128 }}>
+          <figure className="image mb-md-1" style={{ width: 128 }}>
             <img
               src={image.childImageSharp.fluid.src}
               alt={name}
@@ -77,13 +77,7 @@ export const AgentSidebar = () => {
       <h3 className="has-text-weight-semibold is-size-2 is-hidden-mobile">
         &nbsp;
       </h3>
-      <div
-        className="notification toc"
-        style={{
-          padding: "1.5rem",
-          paddingRight: 0
-        }}
-      >
+      <div className="notification toc pr-0 pr-md-3">
         <Agent />
       </div>
     </div>

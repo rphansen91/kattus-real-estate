@@ -12,7 +12,7 @@ export class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="is-parent column is-6 is-4-desktop" key={post.id}>
               <article
                 style={{ padding: 0 }}
                 className={`blog-list-item tile is-child box notification ${
@@ -33,12 +33,12 @@ export class BlogRoll extends React.Component {
                   <header>
                     <p className="post-meta">
                       <Link
-                        className="title has-text-primary is-size-4"
+                        className="has-text-primary is-bold is-size-4"
                         to={post.fields.slug}
+                        style={{ display: 'block', maxHeight: '3em', lineHeight: '1em', overflow: 'hidden', marginBottom: '0.25rem' }}
                       >
                         {post.frontmatter.title}
                       </Link>
-                      <span> &bull; </span>
                       <span className="subtitle is-size-5 is-block">
                         {post.frontmatter.date}
                       </span>
@@ -80,7 +80,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 140)
               id
               fields {
                 slug

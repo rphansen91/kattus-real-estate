@@ -3,6 +3,7 @@
 $kaldi-red: #d6313c
 $kaldi-red-invert: #fff
 
+$link: $kaldi-red
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
@@ -54,6 +55,9 @@ $black: #333
     justify-content: center
     align-items: center
 
+.pr-0
+  padding-right: 0
+
 @media all and (max-width: 670px)  
   body
     overflow: hidden
@@ -63,7 +67,13 @@ $black: #333
     background-size: cover
     background-attachment: fixed
   .flex-row-reverse-md
-    flex-direction: row-reverse;
+    flex-direction: row-reverse
+  .flex-direction-column-md
+    flex-direction: column
+  .mb-md-1
+    margin-bottom: 0.25rem
+  .pr-md-3
+    padding-right: 0.75rem
 
 .btn
     display: inline-block
@@ -139,6 +149,8 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+a
+  color: $kaldi-red
 
 // responsiveness
 +tablet-only
