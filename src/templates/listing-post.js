@@ -20,12 +20,12 @@ export const ListingPostTemplate = ({
   return (
     <section>
       {helmet || ""}
-      <div className="container content">
+      <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="columns flex-row-reverse-md">
               <div className="column">
-                <div className="section">
+                <div className="section content">
                   <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
                     {title}
                   </h1>

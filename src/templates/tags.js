@@ -7,16 +7,21 @@ class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+      <li key={post.node.fields.slug} className="notification" style={{ padding: '0.75rem' }}>
+        <Link to={post.node.fields.slug} className="media">
+          <figure className="image" style={{ minWidth: 128 }}>
+            <img src={post.node.frontmatter.featuredimage.childImageSharp.fluid.src} alt={post.node.frontmatter.title} />
+          </figure>
+          <div className="media-content" style={{ padding: '0.75rem' }}>
+            <h2 className="has-text-primary" style={{ lineHeight: '1em' }}>{post.node.frontmatter.title}</h2>
+          </div>
         </Link>
       </li>
     ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
+    const tagHeader = `${totalCount} listing${
       totalCount === 1 ? '' : 's'
     } tagged with “${tag}”`
 
@@ -24,7 +29,7 @@ class TagRoute extends React.Component {
       <Layout>
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
+          <div className="container">
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"
@@ -66,6 +71,13 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            featuredimage {
+              childImageSharp {
+                fluid(maxWidth: 120, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

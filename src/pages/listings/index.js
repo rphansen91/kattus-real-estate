@@ -1,16 +1,18 @@
 import React from 'react'
-
+import { graphql } from 'gatsby'
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import BlogRollAll from '../../components/BlogRollAll'
 
 export default class BlogIndexPage extends React.Component {
   render() {
+    const { frontmatter } = this.props.data.markdownRemark;
+    const { image } = frontmatter
     return (
       <Layout>
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('/img/skyline.jpg')`,
+            backgroundImage: `url(${image.childImageSharp.fluid.src})`,
           }}
         >
           <h1
@@ -27,7 +29,7 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <BlogRollAll />
             </div>
           </div>
         </section>
@@ -35,3 +37,19 @@ export default class BlogIndexPage extends React.Component {
     )
   }
 }
+
+export const pageQuery = graphql`
+  query ListingsPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      frontmatter {
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`;
