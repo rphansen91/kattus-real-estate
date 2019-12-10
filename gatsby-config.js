@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Kattus Real Estate',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Frank Kattus is your realtor for the best in Carlsbad real estate, Encinitas properties, Oceanside homes, San Marcos realtor, Vista real estate, Cardiff properties, Solana Beach homes, Rancho Santa Fe realtor, Del Mar real estate, Carmel Valley properties',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

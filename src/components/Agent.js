@@ -31,38 +31,43 @@ export const Agent = ({ hideImage }) => {
     caldre
   } = data.markdownRemark.frontmatter.agent;
   return (
-    <>
-      <h4 className="has-text-centered has-text-weight-bold is-bold-light">{name}</h4>
-      {!hideImage && !!image.childImageSharp ? (
-        <img
-          src={image.childImageSharp.fluid.src}
-          alt={name}
-          style={{
-            width: "100%",
-            maxWidth: 172,
-            margin: "auto",
-            display: "block"
-          }}
-        />
-      ) : null}
-      <a
-        className="is-block has-text-centered has-text-primary"
-        title="phone"
-        href={`tel:${phone}`}
-      >
-        {phone}
-      </a>
-      <p className="has-text-centered" style={{ margin: 0 }}>
-        CalDRE: {caldre}
-      </p>
-      <a
-        className="is-block has-text-centered has-text-primary"
-        title="email"
-        href={`mailto:${email}`}
-      >
-        {email}
-      </a>
-    </>
+    <div>
+      <div className="media" style={{ alignItems: "center" }}>
+        {!hideImage && !!image.childImageSharp ? (
+          <figure className="image" style={{ width: 128 }}>
+            <img
+              src={image.childImageSharp.fluid.src}
+              alt={name}
+            />
+          </figure>
+        ) : null}
+        <div className="media-content">
+          <h4
+            className="title is-4 has-text-centered has-text-weight-bold is-bold-light"
+            style={{ marginBottom: "0.5rem" }}
+          >
+            {name}
+          </h4>
+          <a
+            className="is-block has-text-centered has-text-primary"
+            title="phone"
+            href={`tel:${phone}`}
+          >
+            {phone}
+          </a>
+          <p className="has-text-centered" style={{ margin: 0 }}>
+            CalDRE: {caldre}
+          </p>
+          <a
+            className="is-block has-text-centered has-text-primary"
+            title="email"
+            href={`mailto:${email}`}
+          >
+            {email}
+          </a>
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -75,7 +80,8 @@ export const AgentSidebar = () => {
       <div
         className="notification toc"
         style={{
-          padding: "1.5rem"
+          padding: "1.5rem",
+          paddingRight: 0
         }}
       >
         <Agent />

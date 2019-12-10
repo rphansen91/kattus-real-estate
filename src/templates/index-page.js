@@ -64,24 +64,22 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="columns">
-                  <AgentSidebar />
-                  <div className="section">
-                    <div className="column">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <PageContent className="content" content={content} />
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        Featured Listings
-                      </h3>
-                      <BlogRoll />
-                      <div className="column is-12 has-text-centered">
-                        <Link className="btn" to="/listings">
-                          Read more
-                        </Link>
-                      </div>
+              <div className="columns">
+                <AgentSidebar />
+                <div className="section">
+                  <div className="column">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <PageContent className="content" content={content} />
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      Featured Listings
+                    </h3>
+                    <BlogRoll />
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/listings">
+                        Read more
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -6,7 +6,6 @@ import AboutPagePreview from './preview-templates/AboutPagePreview'
 import CommunitiesPagePreview from './preview-templates/CommunitiesPagePreview'
 import FinancingPagePreview from './preview-templates/FinancingPagePreview'
 import ListingPostPreview from './preview-templates/ListingPostPreview'
-import ProductPagePreview from './preview-templates/ProductPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
@@ -16,5 +15,4 @@ CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('communities', CommunitiesPagePreview)
 CMS.registerPreviewTemplate('financing', FinancingPagePreview)
-CMS.registerPreviewTemplate('products', ProductPagePreview)
 CMS.registerPreviewTemplate('listings', ListingPostPreview)
