@@ -1,6 +1,6 @@
 ---
 templateKey: listing-post
-title: Coveted First Floor Master Suite! Corner Lot! 1750 Nolina Ct
+title: First Floor Master Suite! Corner Lot! 1750 Nolina Ct
 date: 2016-12-17T15:04:10.000Z
 description: >-
   Rare Find! High Demand 1st Floor Master Suite, Premium Large Corner Lot,
