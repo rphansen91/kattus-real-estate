@@ -1,12 +1,12 @@
 ---
 templateKey: listing-post
 title: Exquisitely Upgraded Carlsbad Gem! 1109 Scrub Jay Ct
-date: 2019-12-09T07:26:45.612Z
+date: 2020-04-18T07:00:00.000Z
 description: >-
   Rare Opportunity! Premium location within the Private Enclave of 'Parkside',
   only a mile from the be...
 featuredpost: false
-featuredimage: /img/21467747229.jpg
+featuredimage: /img/1109sjexterior1.jpg
 tags:
   - AC Carlsbad
 ---
