@@ -8,10 +8,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/21555004505.jpg
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - ''
 ---
 ![321 La Soledad Way](/img/21555004505.jpg "321 La Soledad Way")
 
