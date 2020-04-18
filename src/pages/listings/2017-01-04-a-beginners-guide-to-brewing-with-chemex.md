@@ -5,8 +5,8 @@ date: 2017-01-04T15:04:10.000Z
 description: >-
   Rare Find! First Time on Market! Original Owner! Beaurtifully Maintained
   'Poinsettia Heights' Townho...
-featuredpost: false
-featuredimage: /img/21527359273.jpg
+featuredpost: true
+featuredimage: /img/1706camext2print.jpg
 tags:
   - brewing
   - chemex
