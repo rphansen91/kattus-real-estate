@@ -10,6 +10,8 @@ featuredimage: /img/1109sjexterior1.jpg
 tags:
   - AC Carlsbad
 ---
+![](/img/1109sjkit4.jpg)
+
 **Property Highlights**
 
 * Fabulous Location
