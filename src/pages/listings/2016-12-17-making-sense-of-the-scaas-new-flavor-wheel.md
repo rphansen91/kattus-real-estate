@@ -4,7 +4,7 @@ title: First Floor Master Suite! Corner Lot! 1750 Nolina Ct
 date: 2020-04-18T07:00:00.000Z
 description: >-
   Rare Find! High Demand 1st Floor Master Suite, Premium Large Corner Lot,
-  Light/Bright Upstairs Great...
+  Upstairs Great Room!
 featuredpost: false
 featuredimage: /img/1750nolinaexterior2p.jpg
 tags:
