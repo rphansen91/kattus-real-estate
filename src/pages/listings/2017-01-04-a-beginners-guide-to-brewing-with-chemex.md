@@ -10,7 +10,7 @@ featuredimage: /img/1706camext2print.jpg
 tags:
   - ''
 ---
-![](/img/1706camext1print.jpg)
+![](/img/1706camext2print.jpg)
 
 **Property Highlights**
 
