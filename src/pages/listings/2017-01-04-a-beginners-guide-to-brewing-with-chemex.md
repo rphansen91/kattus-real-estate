@@ -1,7 +1,7 @@
 ---
 templateKey: listing-post
 title: 1st Time on Market! Original Owner! 1706 Camassia Lane
-date: 2017-01-04T15:04:10.000Z
+date: 2019-01-04T15:04:00.000Z
 description: >-
   Rare Find! First Time on Market! Original Owner! Beautifully Maintained
   'Poinsettia Heights' Townhome!
