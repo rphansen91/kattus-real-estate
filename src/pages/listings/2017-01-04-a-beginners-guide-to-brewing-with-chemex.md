@@ -5,7 +5,7 @@ date: 2017-01-04T15:04:10.000Z
 description: >-
   Rare Find! First Time on Market! Original Owner! Beautifully Maintained
   'Poinsettia Heights' Townhome!
-featuredpost: true
+featuredpost: false
 featuredimage: /img/1706camext2print.jpg
 tags:
   - ''
