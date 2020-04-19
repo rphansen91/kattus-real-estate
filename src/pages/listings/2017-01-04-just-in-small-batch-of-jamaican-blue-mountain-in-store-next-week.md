@@ -4,7 +4,7 @@ title: Large Executive Home! Private Pool/Spa 321 La Soledad Way
 date: 2019-01-04T15:04:00.000Z
 description: >-
   Rare find! Large Executive Prime View Home with Private Below Ground Pool &
-  Spa, including new E...
+  Spa!
 featuredpost: true
 featuredimage: /img/21555004505.jpg
 tags:
