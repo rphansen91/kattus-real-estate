@@ -4,7 +4,7 @@ title: Exquisitely Upgraded Carlsbad Gem! 1109 Scrub Jay Ct
 date: 2020-04-18T07:00:00.000Z
 description: >-
   Rare Opportunity! Premium location within the Private Enclave of 'Parkside',
-  only a mile from the be...
+  only a mile from the beach!
 featuredpost: false
 featuredimage: /img/1109sjexterior1.jpg
 tags:
