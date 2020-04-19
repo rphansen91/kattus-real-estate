@@ -150,10 +150,10 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
+        # mainpitch {
+        #   title
+        #   description
+        # }
         # description
         # intro {
         #   blurbs {
