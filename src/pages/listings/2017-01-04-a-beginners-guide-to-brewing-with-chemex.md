@@ -8,8 +8,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/1706camext2print.jpg
 tags:
-  - brewing
-  - chemex
+  - ''
 ---
 ![chemex](/img/21527359273.jpg)
 
