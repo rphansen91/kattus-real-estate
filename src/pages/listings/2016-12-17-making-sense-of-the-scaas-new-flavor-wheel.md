@@ -11,7 +11,7 @@ tags:
   - flavor
   - tasting
 ---
-![flavor wheel](/img/21561664767.jpg)
+![flavor wheel](/img/1750nolinabackyard2.jpg)
 
 **Property Highlights**
 
