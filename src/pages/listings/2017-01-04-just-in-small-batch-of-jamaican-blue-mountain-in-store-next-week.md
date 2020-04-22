@@ -10,7 +10,7 @@ featuredimage: /img/21555004505.jpg
 tags:
   - ''
 ---
-![321 La Soledad Way](/img/21555004505.jpg "321 La Soledad Way")
+![321 La Soledad Way](/img/321lasoledadpool1.jpg "321 La Soledad Way")
 
 **Property Highlights**
 
