@@ -12,4 +12,6 @@ featuredimage: /img/7125aviarap2.jpg
 tags:
   - Aviara Point!
 ---
-Stunning Aviara Point Panoramic Ocean View Luxury Showpiece with Downstairs Master Suite, Exercise Room, Custom Infinity Pool/Spa, Breathtaking Wraparound View Deck, all Situated on One of the Best Lots on Gated Aviara Drive.  Specifically Designed to take Advantage of Spectacular Ocean/Golf Course Views with the Most Discerning Attention To Designer Detail within apprx. 5400 sq. ft. of Elegant Living Space! This Magnificent Residence has been Upgraded to the Max...& Much Much More!
+Spectacular Aviara Point Panoramic Ocean View Luxury Showpiece with Downstairs Master Suite, Exercise Room, Custom Infinity Pool/Spa, Breathtaking Wraparound View Deck, all Situated on One of the Best Lots on Gated Aviara Drive.  Specifically Designed to take Advantage of Spectacular Ocean/Golf Course Views with the Most Discerning Attention To Designer Detail within apprx. 5400 sq. ft. of Elegant Living Space! This Magnificent Residence has been Upgraded to the Max...& Much Much More!
+
+![Beautiful Custom Infinity Pool/Spa Overlooking Aviara Golf Course!](/img/7125aviarapool1.jpg)
