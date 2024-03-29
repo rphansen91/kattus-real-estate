@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Agent } from './Agent'
 
-import logo from '../img/homesmart-logo.png'
+import logo from '../img/davidson-logo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -54,10 +54,17 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4">
-              <img
-                src={logo}
-                alt="Homesmart Logo"
-              />
+                <div className="row">
+                  <img
+                    src={logo}
+                    alt="Davidson Logo"
+                    style={{ width: 80 }}
+                  />
+                  <div className="realty-group">
+                    <h4 className="lg">Davidson</h4>
+                    <h4>Realty</h4>
+                  </div>
+                </div>
                 <Agent hideImage={true} />
               </div>
             </div>
