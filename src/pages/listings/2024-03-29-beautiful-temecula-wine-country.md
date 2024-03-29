@@ -7,7 +7,7 @@ description: >-
   Parcels available in the Heart of the Beautiful Temecula Wine Country, Totaling 37.89 Acres of Numerous
   Possibilities!   
 featuredpost: true
-featuredimage: /img/temecula1.png
+featuredimage: /img/temecula1.jpg
 tags:
   - Temecula
   - Wine Country
@@ -19,4 +19,4 @@ Parcels offer Unique Land Use Potential!
 E BENTON ROAD & BELLA VISTA ROAD, TEMECULA CA 92592
 LOTS 13, 14, 15 ,16
 
-![Temecula 2](/img/temecula2.png) ![Temecula 3](/img/temecula3.png) ![Temecula 4](/img/temecula4.png)
+![Temecula 2](/img/temecula2.jpg) ![Temecula 3](/img/temecula3.jpg) ![Temecula 4](/img/temecula4.jpg)

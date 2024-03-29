@@ -54,7 +54,7 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4">
-                <div className="row">
+                <div className="row" style={{ transform: 'translateX(-10px)' }}>
                   <img
                     src={logo}
                     alt="Davidson Logo"
