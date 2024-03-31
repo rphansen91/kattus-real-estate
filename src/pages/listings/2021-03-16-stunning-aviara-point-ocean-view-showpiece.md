@@ -1,6 +1,6 @@
 ---
 templateKey: listing-post
-title: Stunning Aviara Point Ocean View Showpiece!
+title: Stunning Aviara Point Ocean View!
 date: 2021-03-16T18:20:58.123Z
 description: >-
   SOLD BEFORE PROCESSING! Exquisite Aviara Point Panoramic Ocean View Luxury
